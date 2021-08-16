@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">FromJavaToKotlin</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="button_message">Hello world!!! Kotlin Style!</string>
 </resources>
