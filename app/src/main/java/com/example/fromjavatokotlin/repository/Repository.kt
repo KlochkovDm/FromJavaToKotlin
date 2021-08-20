@@ -32,6 +32,18 @@ object RepositorySingle :IRepository{
             Weather("Moсква",25),
             Weather("Рязань",27),
             Weather("Ростов",29),
+            Weather("Сочи",31),
+            Weather("Moсква",25),
+            Weather("Рязань",27),
+            Weather("Ростов",29),
+            Weather("Сочи",31),
+            Weather("Moсква",25),
+            Weather("Рязань",27),
+            Weather("Ростов",29),
+            Weather("Сочи",31),
+            Weather("Moсква",25),
+            Weather("Рязань",27),
+            Weather("Ростов",29),
             Weather("Сочи",31))
 
     override fun getWeathers(): List<Weather> {

@@ -6,6 +6,8 @@ import android.view.View.OnClickListener
 import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.RecyclerView
+import com.example.fromjavatokotlin.repository.RepositorySingle
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,6 +23,11 @@ class MainActivity : AppCompatActivity() {
                 Toast.LENGTH_SHORT
             ).show()
         }
+
+        val recyclerWeather = findViewById<RecyclerView>(R.id.recyclerWeather)
+        val adapter = WeatherAdapter(RepositorySingle)
+        recyclerWeather.adapter = adapter
+
 
     }
 }
